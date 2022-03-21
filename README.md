@@ -3,19 +3,16 @@ AWSATT&CK is a modified version of [Rhino Security Labs's](https://github.com/Rh
 
 # PHILOSOPHY
 
-Blackbot Labs believes in creating tools where vendor solutions and open source can be provisioned and managed together by all organizations with the intent to deliver actionable attack intelligence organizations can use to define clear objectives and drive strategic security program initiatives.
+To Create tools where vendor solutions and open source can be provisioned and managed together by all organizations with the intent to deliver actionable attack intelligence organizations can use to define clear objectives and drive strategic security program initiatives.
 
 ### *Commitment*
 
 - **INTEGRITY** 
-We develop tools and frameworks that produce accurate attack intelligence to help security teams evaluate the integrity of their security solutions.
-
-- **TRANSPARENCY**
-We work under the umbrella of full transparency during all phases of tool and framework development. From striking up ideas with our community to enhancing the capabilities of tools used by red teams all over the world; if Blackbot Labs is brewing up a new tool or framework, you'll know about it.
+Develop tools and frameworks that produce accurate attack intelligence to help security teams evaluate the integrity of their security solutions.
 
 
 - **AGILITY**
-We take pride in enabling lean security teams to remain agile and focused on developing a unique trade-craft that's agnostic to certain tools developed by the red team community. Whether you're keeping tight margins between \(MTTD\) and  \(MTTR\) metrics or evaluating security controls, we'll be here building tools to help you get the job done faster.
+Enabling lean security teams to remain agile and focused on developing a unique trade-craft that's agnostic to certain tools developed by the red team community. Whether you're keeping tight margins between \(MTTD\) and  \(MTTR\) metrics or evaluating security controls, we'll be here building tools to help you get the job done faster.
 
 
 - **SCALABILITY**
@@ -23,7 +20,7 @@ Scaling operational activities is critical to sustaining efficient security ecos
 
 
 - **FLEXIBILITY**
-Blackbot Labs builds and delivers open source tools with the flexibility and intent for security professionals to improve their trade-craft and scale security testing initiatives in IT, OT, cloud-native and hybrid workspaces.
+Building and delivering open source tools with the flexibility and intent for security professionals to improve their trade-craft and scale security testing initiatives in IT, OT, cloud-native and hybrid workspaces.
 
 
 - **RAPID DEPLOYMENT**
@@ -148,7 +145,7 @@ JSON logging is enriched with MITRE ATT&CK techniques and additional fields that
 ```
 {
   "technique_info": {
-    "blackbot_id": "T1078.004",
+    "id": "T1078.004",
     "external_id": "",
     "used_by": "",
     "services": "sts",
@@ -161,7 +158,7 @@ JSON logging is enriched with MITRE ATT&CK techniques and additional fields that
     "evidence_status": "1"
   },
   "ttp_exec": {
-    "blackbot_id": "T1078.004",
+    "attack_id": "T1078.004",
     "external_id": "",
     "name": "",
     "intent": "",
@@ -189,12 +186,12 @@ JSON logging is enriched with MITRE ATT&CK techniques and additional fields that
     "x_mitre_detection": "",
     "x_mitre_data_sources": [],
     "x_mitre_platforms": [],
-    "blackbot_id": "T1078.004",
+    "attack_id": "T1078.004",
     "external_id": "",
     "spec_version": ""
   },
   "ttp_detection": {
-    "blackbot_id": "T1078.004",
+    "attack_id": "T1078.004",
     "external_id": "",
     "aws_iam": "",
     "aws_single": "",
@@ -233,9 +230,7 @@ JSON logging is enriched with MITRE ATT&CK techniques and additional fields that
 ```
 
 ## MITRE ATT&CK COVERAGE
-- [MITRE ATT&CK Coverage Map](https://attack.blackbot.io)
-
-
+- See table below 
 
 
 ## USE CASES 
@@ -249,14 +244,6 @@ JSON logging is enriched with MITRE ATT&CK techniques and additional fields that
 Checkout the [Pacu wiki](https://github.com/RhinoSecurityLabs/pacu/wiki)  
 
 
-
-## CODE OF CONDUCT
-
-Blackbot Labs operates under the umbrella of full transparency while ensuring end-user privacy remains a top priority. For more details on how we operate with our community, visit our community page.
-
-[https://blackbot.io/community](https://blackbot.io/community)
-
-## Disclaimers, and the AWS Acceptable Use Policy
 
 AWSATT&CK enhancements and Pacu's capabilities are compliant with the AWS Acceptable Use Policy. 
     For opsec safe operations, request authorization from Amazon before actually running AWSATT&CK against your infrastructure.    
